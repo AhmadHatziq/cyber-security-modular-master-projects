@@ -1,6 +1,6 @@
 # Data Analytics Project 
 
-In this project, a binary classification model is created with the [Network Security Lab - Knowledge Discovery and Data Mining (NSL-KDD)] (https://github.com/InitRoot/NSLKDD-Dataset) dataset.
+In this project, a binary classification model is created with the [Network Security Lab - Knowledge Discovery and Data Mining (NSL-KDD)](https://github.com/InitRoot/NSLKDD-Dataset) dataset.
 
 The flow of this project is as follows: 
 Data Visualization -> Data Analytics -> Data Modelling 
@@ -26,7 +26,7 @@ All of the features have already been converted to integer or floats
 
 
 ## Report <a name="Report"></a>
-To view the full report, please click [here] (). 
+To view the full report, please click [here](https://github.com/AhmadHatziq/cyber-security-modular-master-projects/blob/main/Data%20Analytics%20Project/Report.pdf). 
 
 ## Folder Contents <a name="folder"></a>
 The directory of the folder is as follows:
