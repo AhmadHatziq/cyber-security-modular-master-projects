@@ -2,11 +2,14 @@
 
 In this project, a binary classification model is created with the [Network Security Lab - Knowledge Discovery and Data Mining (NSL-KDD)](https://github.com/InitRoot/NSLKDD-Dataset) dataset.
 
+The aim of this project is to analyze network data, create multiple binary classification models and assess the effectiveness of these models. 
+
 The flow of this project is as follows: 
 Data Visualization -> Data Analytics -> Data Modelling 
 
 # Table of Contents
 1. [Introduction](#Introduction)
+2. [Abstract](#abstract)
 2. [Report](#Report)
 3. [Folder Contents](#folder)
 
@@ -24,6 +27,21 @@ The features of this dataset comes from network data captured and are categorize
 normal, probes, remote-to-local attack, user-to-root attack, denial-of-service attack. The features represent network data such as protocol type, number of failed logins and source bytes.
 All of the features have already been converted to integer or floats
 
+## Abstract <a name="abstract"></a>
+
+In this report, the NSL-KDD dataset is analyzed and several machine learning models are used.
+The problem being addressed here is to create a binary classification model that classifies either malicious or benign network data.
+
+The dataset has 41 features in total however, the analysis is only kept to the most highly ranked
+features.
+
+The machine learning models used are:
+1. Regression (Multiple Linear Regression and Logistic Regression)
+2. Decision Tree
+3. Multi Layer Perceptron (aka Feedforward Neural Network)
+4. Naive Bayes
+5. Long Short Term Memory Networks (LSTMs), a variant of Recurrent Neural Networks
+The machine learning models are created using R, Python and Weka
 
 ## Report <a name="Report"></a>
 To view the full report, please click [here](https://github.com/AhmadHatziq/cyber-security-modular-master-projects/blob/main/Data%20Analytics%20Project/Report.pdf). 
