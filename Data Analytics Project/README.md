@@ -7,15 +7,20 @@ Data Visualization -> Data Analytics -> Data Modelling
 
 # Table of Contents
 1. [Introduction](#Introduction)
-2. [Data Visualization](#Data Visualization)
+2. [Data Visualization](#DataVisualization)
 3. [Data Analytics](#analytics)
 4. [Data Modelling](#modelling)
 
+## This is the introduction <a name="Introduction"></a>
+Some introduction text, formatted in heading 2 style
 
-## intro
-## Data Visualization
-## analytics
-## modelling
+## Some paragraph <a name="DataVisualization"></a>
+The first paragraph text
 
+## Sub paragraph <a name="analytics"></a>
+This is a sub paragraph, formatted in heading 3 style
+
+## Another paragraph <a name="modelling"></a>
+The second paragraph text
 
 
