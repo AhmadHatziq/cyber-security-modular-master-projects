@@ -71,5 +71,11 @@ These vendors could be the top performing vendors or those with longest lifespan
 
 ## Report <a name="Report"></a>
 
+To view the full report, please click [here](https://github.com/AhmadHatziq/cyber-security-modular-master-projects/blob/main/Dark%20Web%20Analysis%20Project/Report.pdf). 
 
 ## Folder Contents <a name="folder"></a>
+
+The directory of the folder is as follows:
+* Dark Web Analysis.ipynb - Jupyter notebook used for the analysis of both datasets. 
+* README.md - This file.
+* Report.pdf - Final report for this dark web data analytics project. 
