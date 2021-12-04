@@ -2,9 +2,10 @@
 
 # Table of Contents
 1. [Abstract](#abstract)
-2. [Conclusion](#conclusion)
-2. [Report](#Report)
-3. [Folder Contents](#folder)
+2. [Introduction](#intro)
+3. [Conclusion](#conclusion)
+4. [Report](#Report)
+5. [Folder Contents](#folder)
 
 
 ## Abstract <a name="abstract"></a>
@@ -19,6 +20,30 @@ Lastly, the Kilos dataset is verified using 2 other datasets, the Silk Road 2 da
 Cocaine dataset. Despite being collected at different times, these datasets share a small number of
 vendors. The ratings of these common vendors are used to determine if there are any discrepancies with
 the Kilos dataset
+
+## Introduction <a name="intro"></a>
+
+Online marketplaces hosted on Tor can provide a wide range of escrow services between buyers and
+sellers. This allows for buyers and sellers to transact using Bitcoin or other cryptocurrencies in exchange
+for services and products, such as drugs, weapons or hacking services.
+
+As a result, multiple dark net markets (DNMs) had cropped up. The most famous was Silk Road 1,
+starting in 2011. Over the years, multiple other DNMs have emerged while older DNMs were taken down.
+
+In this project, we aim to analyze the trends in the 6 major DNMs (Apollon, CannaHome, Empire,
+Samsara, Cryptonia, Cannazon) and their associated vendors.
+
+The main datasets that we will be using are as follows:
+1. [Kilos dataset](https://www.gwern.net/DNM-archives#kilos). This dataset contains information such as site, vendor, timestamp, score and
+value_btc. It is collected from a search engine and contains information about the dark web
+vendors along with their item values as well as a review score. It contains data about the vendors
+of the 6 DNMs of interest. The dataset is dated from 2018 March to 2020 January.
+2. [Agora dataset](https://www.kaggle.com/philipjames11/dark-net-marketplace-drug-data-agora-20142015). This dataset contains similar marketplace data as well as categories, locations
+and other remarks. It contains data about the vendors of Agora (another DNM). The dataset is
+dated from 2014-2015.
+
+All the code used in this analysis can be found in the accompanying Jupyter notebook file, Dark Web Analysis.ipynb.
+
 
 ## Conclusion <a name="conclusion"></a>
 
