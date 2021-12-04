@@ -10,7 +10,7 @@ The final binary classification model is then deployed as a CLI application.
 1. [Abstract](#abstract)
 2. [Report](#Report)
 3. [Folder Contents](#folder)
-4. [Network Anomaly Detection Tool] (#tool)
+4. [Network Anomaly Detection Tool](#tool)
 
 ## Abstract <a name="abstract"></a>
 
@@ -44,4 +44,7 @@ The directory of the folder is as follows:
 
 Sample usage on a Linux machine: 
 ```python3 network_anomaly_tool.py -f INPUT_PCAP_FILE.pcap```
+
+
+![screenshot of CLI app](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Network%20Anomaly%20Detection%20Project/images/image_1.png)
 
