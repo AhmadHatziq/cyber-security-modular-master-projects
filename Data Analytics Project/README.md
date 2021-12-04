@@ -4,6 +4,8 @@ In this project, a binary classification model is created with the [Network Secu
 
 The aim of this project is to analyze network data, create multiple binary classification models and assess the effectiveness of these models. 
 
+Through this project, it is hoped that valuable insights into creating a Maching Learning Network Intrusion Detection System can be gained. 
+
 The flow of this project is as follows: 
 Data Visualization -> Data Analytics -> Data Modelling 
 
@@ -32,8 +34,7 @@ All of the features have already been converted to integer or floats
 In this report, the NSL-KDD dataset is analyzed and several machine learning models are used.
 The problem being addressed here is to create a binary classification model that classifies either malicious or benign network data.
 
-The dataset has 41 features in total however, the analysis is only kept to the most highly ranked
-features.
+The dataset has 41 features in total. However, the analysis is only kept to the most highly ranked features.
 
 The machine learning models used are:
 1. Regression (Multiple Linear Regression and Logistic Regression)
@@ -41,6 +42,7 @@ The machine learning models used are:
 3. Multi Layer Perceptron (aka Feedforward Neural Network)
 4. Naive Bayes
 5. Long Short Term Memory Networks (LSTMs), a variant of Recurrent Neural Networks
+
 The machine learning models are created using R, Python and Weka
 
 ## Report <a name="Report"></a>
