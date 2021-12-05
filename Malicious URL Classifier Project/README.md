@@ -13,7 +13,7 @@
 In this project, we created a malicious URL ensemble
 classifier by training on 2 datasets ([Dataset of
 Malicious and Benign Webpages](https://www.kaggle.com/aksingh2411/dataset-of-malicious-and-benign-webpages), [Malicious & Benign
-URLs](https://www.kaggle.com/siddharthkumar25/malicious-and-benign-urls). 
+URLs](https://www.kaggle.com/siddharthkumar25/malicious-and-benign-urls) ). 
 
 The details of the 2 datasets are as follows: 
 ![dataset details](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Malicious%20URL%20Classifier%20Project/pics/pic1.png)
@@ -47,7 +47,7 @@ classifier via a Chrome extension. The chrome extension uses JavaScript and a ba
 
 Lastly, the effectiveness of our malicious URL
 classifier was evaluated on a third dataset ([Malicious
-URLs Dataset](https://www.kaggle.com/sid321axn/malicious-urls-dataset/metadata) which was released in 24 July 2021. Our model achieved an
+URLs Dataset](https://www.kaggle.com/sid321axn/malicious-urls-dataset/metadata) ) which was released in 24 July 2021. Our model achieved an
 overall accuracy of 71.45%.
 
 
@@ -119,7 +119,7 @@ our model performance.
 
 ## Report <a name="Report"></a>
 
-To view the full report, please click [here](). 
+To view the full report, please click [here](https://github.com/AhmadHatziq/cyber-security-modular-master-projects/blob/main/Malicious%20URL%20Classifier%20Project/Report.pdf) and [here](https://github.com/AhmadHatziq/cyber-security-modular-master-projects/blob/main/Malicious%20URL%20Classifier%20Project/Slides.pdf). 
 
 ## Folder Contents <a name="folder"></a>
 
