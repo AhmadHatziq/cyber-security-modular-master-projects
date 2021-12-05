@@ -11,10 +11,28 @@
 ## Abstract <a name="abstract"></a>
 
 In this project, we created a malicious URL ensemble
-classifier by training on 2 datasets (Dataset of
-Malicious and Benign Webpages, Malicious & Benign
-URLs). Our ensemble classification model is made up
-of 3 different models:
+classifier by training on 2 datasets ([Dataset of
+Malicious and Benign Webpages](https://www.kaggle.com/aksingh2411/dataset-of-malicious-and-benign-webpages), [Malicious & Benign
+URLs](https://www.kaggle.com/siddharthkumar25/malicious-and-benign-urls). 
+
+The details of the 2 datasets are as follows: 
+![dataset details](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Malicious%20URL%20Classifier%20Project/pics/pic1.png)
+
+From the datasets, relevant features are engineered accordingly: 
+![feature engineering 1](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Malicious%20URL%20Classifier%20Project/pics/pic2.png)
+
+![feature engineering 2](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Malicious%20URL%20Classifier%20Project/pics/pic3.png)
+
+![feature engineering 3](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Malicious%20URL%20Classifier%20Project/pics/pic4.png)
+
+The first dataset is split into 2, with one NLP model and another random forest model for the remaining features. 
+
+The second dataset has a gradient boosting classifier trained on all of its features. 
+
+![image](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Malicious%20URL%20Classifier%20Project/pics/pic5.png)
+
+Our final ensemble classification model is made up
+of the 3 different models:
 
 1. A neural network classification model that uses
 Natural Language Processing (NLP) and takes
@@ -23,12 +41,13 @@ in as input an array of content strings.
 3. A gradient boosting classification model.
 
 Subsequently, we deployed the malicious URL
-classifier via a Chrome extension.
+classifier via a Chrome extension. The chrome extension uses JavaScript and a backend Flask API. 
+
+![extension image](https://raw.githubusercontent.com/AhmadHatziq/cyber-security-modular-master-projects/main/Malicious%20URL%20Classifier%20Project/pics/pic6.png)
 
 Lastly, the effectiveness of our malicious URL
-classifier was evaluated on a third dataset (Malicious
-URLs Dataset) which was released around 2 - 3
-months ago (24 July 2021). Our model achieved an
+classifier was evaluated on a third dataset ([Malicious
+URLs Dataset](https://www.kaggle.com/sid321axn/malicious-urls-dataset/metadata) which was released in 24 July 2021. Our model achieved an
 overall accuracy of 71.45%.
 
 
