@@ -66,11 +66,17 @@ settings (43.181% for SpamAssassin, 44.694% for Rspamd)
 
 ## Report <a name="Report"></a>
 
-To view the full report, please click [here](). 
+To view the full report, please click [here](https://github.com/AhmadHatziq/cyber-security-modular-master-projects/blob/main/Email%20Spam%20Filtering%20Project/Report.pdf). 
 
 ## Folder Contents <a name="folder"></a>
 
 The directory of the folder is as follows:
-* Dark Web Analysis.ipynb - Jupyter notebook used for the analysis of both datasets. 
-* README.md - This file.
-* Report.pdf - Final report for this dark web data analytics project. 
+* /code 
+	* Correlation Analysis & Machine Learning.ipynb - Contains the analysis of results from the rspam and spam_assassin csv files. 
+	* generate_rspam_scores.py - Used to generate rspamd_results.csv
+	* generate_spam_assassin_scores.py - Used to generate spam_assassin_results.csv
+* /csvs - Contains the data generated ie headers present in the test email, classification score and result, true labels. 
+	* rspamd_results.csv 
+	* spam_assassin_results.csv
+* README.md - This file. 
+* Report.pdf - Report for the project.
