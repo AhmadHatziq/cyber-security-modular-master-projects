@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Site Classifier",
+  "description": "This extension will classify the current site using machine learning.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "tabs",
+   "http://127.0.0.1:5000/api"
+   ]
+}
