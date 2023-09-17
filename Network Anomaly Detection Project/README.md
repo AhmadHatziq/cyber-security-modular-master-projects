@@ -6,6 +6,8 @@ With the collected dataset, various machine learning models are trained and test
 
 The final binary classification model is then deployed as a CLI application. 
 
+If this repository had proved helpful, or if you have any feedback, do give me a follow on [LinkedIn](https://www.linkedin.com/in/ahmad-hatziq-74a938171/)! 
+
 # Table of Contents
 1. [Abstract](#abstract)
 2. [Report](#Report)
