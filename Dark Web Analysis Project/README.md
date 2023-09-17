@@ -1,5 +1,7 @@
 # Dark Web Analysis Project 
 
+If this repository had proved helpful, or if you have any feedback, do give me a follow on [LinkedIn](https://www.linkedin.com/in/ahmad-hatziq-74a938171/)! 
+
 # Table of Contents
 1. [Abstract](#abstract)
 2. [Introduction](#intro)
